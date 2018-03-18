@@ -19,7 +19,8 @@ repositories {
 }
 
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version",
+            "com.sparkjava:spark-kotlin:1.0.0-alpha"
 }
 
 compileKotlin {

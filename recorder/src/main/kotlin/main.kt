@@ -1,3 +1,5 @@
+import spark.Spark.get
+
 fun main(args: Array<String>) {
-    println("Hello World")
+    get("/hello") { request, response -> "Hello World" }
 }
