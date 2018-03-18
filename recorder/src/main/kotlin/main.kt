@@ -1,5 +1,5 @@
-import spark.Spark.get
+import controllers.RecorderController
 
 fun main(args: Array<String>) {
-    get("/hello") { request, response -> "Hello World" }
+    RecorderController().createRoutes()
 }
